@@ -34,8 +34,8 @@
          <xsd:element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
          <xsd:element name="State" type="StateType" minOccurs="1" maxOccurs="1"/>
          <xsd:element name="Zip" type="ZipCodeType" minOccurs="1" maxOccurs="1"/>
-         <xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
       </xsd:sequence>
+      <xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
    </xsd:complexType>
    
    <!-- Define the allowed format for the Phone number with a regular exp. -->
@@ -53,7 +53,7 @@
    
    <xsd:simpleType name="ZipCodeType">
       <xsd:restriction base="xsd:string">
-         <xsd:pattern value="\d{5}"/>
+         <xsd:pattern value="[0-5].[0-9]"/>
       </xsd:restriction>
    </xsd:simpleType>
 
