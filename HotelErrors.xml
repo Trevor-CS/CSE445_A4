@@ -34,6 +34,7 @@
          <City>Tempe</City>
          <State>AZ</State>
          <Zip>85281</Zip>
+      </Address>
    </Hotel>
    <Hotel Rating="4.5">
       <Name>Residence Inn Tempe Downtown/University</Name>
