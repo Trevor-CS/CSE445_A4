@@ -5,18 +5,18 @@
    xsi:schemaLocation="https://trevor-cs.github.io/CSE445_A4/Hotels.xsd">
    <Hotel Rating="4.2">
       <Name>Westin</Name>
-      <Phone>480-968-8885</Phone>
-      <Phone>800-937-8461</Phone>
+      <Name>Westin2</Name>
       <Address>
          <Number>11</Number>  
          <Street>E. 7th St</Street>
          <City>Tempe</City>
          <State>AZ</State>
          <Zip>85281</Zip>
-      </Address>
+      <Address>
    </Hotel>
    <Hotel Rating="4.4">
       <Name>AC Hotel</Name>
+      <Phone>480-642-6140</Phone>
       <Address NearestAirport="Sky Harbor">
          <Number>100</Number>  
          <Street>E. Rio Salado Pkwy</Street>
@@ -25,7 +25,7 @@
          <Zip>85281</Zip>
       </Address>
    </Hotel>
-   <Hotel Rating="4.4">
+   <Hotel>
       <Name>Tempe Mission Palms</Name>
       <Phone>480-894-1400</Phone>
       <Address NearestAirport="Sky Harbor">
@@ -34,10 +34,10 @@
          <City>Tempe</City>
          <State>AZ</State>
          <Zip>85281</Zip>
+      </Address>
    </Hotel>
    <Hotel Rating="4.5">
       <Name>Residence Inn Tempe Downtown/University</Name>
-      <Name>Residence Inn Tempe</Name>
       <Phone>480-967-2300</Phone>
       <Address NearestAirport="Sky Harbor">
          <Number>510</Number>  
@@ -47,7 +47,7 @@
          <Zip>85281</Zip>
       </Address>
    </Hotel>
-   <Hotel Rating="4.4">
+   <Hotel>
       <Name>Canopy</Name>
       <Phone>480-968-6800</Phone>
       <Address NearestAirport="Sky Harbor">
@@ -91,9 +91,10 @@
          <Zip>85295</Zip>
       </Address>
    </Hotel>
-   <Hotel Rating="4.2">
+   <Hotel>
       <Name>Crown Plaza</Name>
       <Phone>480-812-0900</Phone>
+      <Phone>480-967-9431</Phone>
       <Address NearestAirport="Chandler Municipal">
          <Number>1</Number>  
          <Street>N. San Marcos Pl</Street>
@@ -105,6 +106,7 @@
    <Hotel Rating="4.1">
       <Name>Hilton Garden</Name>
       <Phone>623-471-8400</Phone>
+      <Phone>480-968-6800</Phone>
       <Address NearestAirport="Chandler Municipal">
          <Number>150</Number>  
          <Street>S Arizona Ave</Street>
