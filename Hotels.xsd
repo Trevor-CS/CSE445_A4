@@ -36,6 +36,7 @@
       </xsd:restriction>
    </xsd:simpleType>
    
+   <!-- State, ZipCode, and Rating types are also defined through regular expressions -->
    <xsd:simpleType name="StateType">
       <xsd:restriction base="xsd:string">
          <xsd:pattern value="[A-Z][A-Z]"/>
