@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotel
-   xmlns="http://venus.sod.asu.edu/WSRepository/xml"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="https://trevor-cs.github.io/CSE445_A4/Hotels.xsd">
    <Hotel Rating="4.2">
